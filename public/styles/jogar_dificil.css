@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(205, 180, 230);
+
+}
+
+.jogar_facil{
+    margin-top: -10%;
+}
+
+.butao{
+    margin-left: -75%;
+    margin-top: 2%;
+    }
+
+.butao button{
+    color: rgb(238, 223, 252);
+    background-color: rgb(83, 64, 102); 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 14px;
+    border-radius: 15px;
+    text-decoration: none;  
+    border: none;  
+    cursor: pointer;
+    font-weight: 600;
+    }
+    
+    button:hover{
+        background-color:rgb(153, 136, 170);
+    }
+
+    table.jogo {
+        background-color: rgb(205, 180, 230);
+        grid-template-columns: repeat(6, auto);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .peca {
+        display: flex;
+        grid-template-columns: repeat(6, auto);
+        width: 150px;
+        height: 165px;
+        position: center;
+        background: rgb(255, 255, 255);
+        padding: 0px;
+        margin-top: 0%;
+        margin: auto;
+        box-shadow: 0px 0px 5px black;
+    }
